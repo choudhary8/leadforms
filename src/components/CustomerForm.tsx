@@ -91,7 +91,7 @@ export const CustomerForm=()=>{
             <input type="text" id="personLastName" placeholder="Please Enter Last Name" required/>
 
             <label htmlFor="personCountry">Country<span className="text-red-500 font-thin">*</span></label>
-            <select onChange={(event)=>{setCountrySelected(event.target.value)}} name="" id="personCountry" required>
+            <select onChange={(event)=>{setCountrySelected(event.target.value)}} name="" id="personCountry" className="p-4" required>
                 <option value="">select country</option>
                 {
                     Object.entries(countriesNames).map(([key,value])=>(
@@ -115,7 +115,7 @@ export const CustomerForm=()=>{
             <input type="date" name="" id="preferredDate"/>
 
             <label htmlFor="preferredTime">Preferred Time</label>
-            <select name="" id="preferredTime" className="w-full">
+            <select name="" id="preferredTime" className="w-full p-4">
                 <option value="ist">Preferred Time in IST</option>
             </select>
 
