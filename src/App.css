@@ -30,3 +30,7 @@ label, .maroon{
   margin-bottom: 1rem;
   width: 100%;
 }
+
+#consent{
+  width: 20px;
+}
