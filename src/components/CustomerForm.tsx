@@ -54,7 +54,7 @@ export const CustomerForm=()=>{
 
 
     return (
-        <div className="w-1/2 overflow-y-scroll bg-[#fff2e3] p-18 py-10">
+        <div className="sm:w-1/2 sm:overflow-y-scroll bg-[#fff2e3] sm:px-18 p-12 py-10">
             <div className="text-center underline font-semibold text-md maroon">Your Details</div>
             <label htmlFor="customerFirstName">First Name<span className="text-red-500 font-thin">*</span></label>
             <input type="text" id="customerFirstName" placeholder="Please Enter First Name" required/>

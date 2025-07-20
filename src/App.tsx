@@ -6,9 +6,9 @@ import { Navbar } from './components/Navbar'
 function App() {
 
   return (
-    <div className='h-[94%]'>
+    <div className='sm:h-[94%]'>
       <Navbar></Navbar>
-      <div className='flex h-9/10'>
+      <div className='sm:flex sm:h-9/10'>
       <InfoTab></InfoTab>
       <CustomerForm></CustomerForm>
       </div>
