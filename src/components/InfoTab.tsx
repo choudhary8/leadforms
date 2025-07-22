@@ -33,9 +33,9 @@ export const InfoTab=()=>{
                 </div>
                 <div className="p-2 px-6">
                     <div className="text-[#d75b15] font-semibold">
-                        Live Assistance from Team ICICI Bank!
+                        Live Assistance from Team My Bank!
                     </div>
-                    <div className="sm:w-2/3 text-sm">ICICI Bank will call and assist in filling the Account Opening form and KYC documentation.</div>
+                    <div className="sm:w-2/3 text-sm">My Bank will call and assist in filling the Account Opening form and KYC documentation.</div>
                 </div>
             </div>
 
