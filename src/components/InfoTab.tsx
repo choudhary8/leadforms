@@ -64,7 +64,7 @@ export const InfoTab=()=>{
                     For US customers
                     <div>
         <FaArrowRight/>
-                        // <img src="https://buy.icicibank.com/ucj/media/iconArrow.3e68e478.png" className="img-fluid pl-1" alt="arrow"/>
+{/*                         // <img src="https://buy.icicibank.com/ucj/media/iconArrow.3e68e478.png" className="img-fluid pl-1" alt="arrow"/> */}
                     </div>
                 </p>
             </div>
