@@ -63,8 +63,7 @@ export const InfoTab=()=>{
                 <p className="flex items-center justify-end text-sm underline font-semibold">
                     For US customers
                     <div>
-        <FaArrowRight/>
-{/*                         // <img src="https://buy.icicibank.com/ucj/media/iconArrow.3e68e478.png" className="img-fluid pl-1" alt="arrow"/> */}
+                        <FaArrowRight/>
                     </div>
                 </p>
             </div>
